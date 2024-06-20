@@ -1,0 +1,75 @@
+.hero__section {
+  background-color: var(--hero-bg);
+}
+.hero__section h2 {
+  color: var(--primary-color);
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin: 20px 0px;
+}
+.hero__section p {
+  color: var(--primary-color);
+  line-height: 28px;
+}
+.hero__section p:nth-child(1){
+  font-weight: 500;
+}
+.shop__btn {
+  outline: none;
+  border: none; 
+  padding: 8px 20px;
+  border-radius: 5px;
+  background-color: var(--primary-color);
+  color: #fff;
+  cursor: pointer;
+  font-size: 1rem;
+}
+.shop__btn a {
+  color: #fff;
+}
+.hero__content {
+  padding-top: 45px;
+}
+.timer__count {
+  background-color: var(--primary-color);
+  height: 300px;
+}
+.timer__count img {
+  width: 70% !important;
+  height: 70% !important;
+  object-fit: contain;
+}
+.store__btn {
+  background-color: #fff;
+  color: var(--primary-color);
+  font-weight: 600;
+  margin-top: 15px;
+}
+.store__btn a {
+  color: var(--primary-color);
+}
+
+@media only screen and (max-width: 992px) {
+  .hero__content h2 {
+    font-size: 2rem;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hero__content h2 {
+    font-size: 1.6rem;
+  }
+  .hero__content p {
+    font-size: 1rem;
+  }
+  .shop__btn {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+  .hero__content{
+    padding-top: 0;
+    margin-bottom: 40px;
+  }
+}

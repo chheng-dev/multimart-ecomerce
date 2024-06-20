@@ -1,0 +1,25 @@
+@media only screen and (max-width: 992px) {
+  .clock__wrapper {
+    justify-content: center;
+  }
+  .clock__data h1 {
+    font-size: 1.1rem !important;
+  }
+  .clock__top_content h4 {
+    font-size: .9rem;
+  }
+  .clock__top_content h3 {
+    font-size: 1rem !important;
+  }
+  .count__down_col {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .clock__data h1{
+    font-size: 0.8rem !important;
+  }
+  .clock__data h5{
+    font-size: 0.9rem !important;
+  }
+}
