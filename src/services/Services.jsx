@@ -12,7 +12,7 @@ const Services = () => {
         <Row>
           {
             serviceData.map((item, index) => (
-              <Col lg='3' md='6' key={index}>
+              <Col xl="3" lg='4' md='6' key={index}>
                 <motion.div className="service__item" whileHover={{ scale: 1.1 }} style={{ background: item.bg }}>
                   <span>
                     <i className={item.icon}></i>

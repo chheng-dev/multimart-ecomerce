@@ -1,0 +1,21 @@
+.commo__section {
+  background: linear-gradient(rgba(0, 0, 0, 0.52), rgba(0, 0, 0, 0.52)), url("../assets/images/comma-section.jpg") no-repeat center center;
+  background-size: cover;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.commo__section h1 {
+  font-weight: 600;
+  color: #fff;
+}
+
+@media only screen and (max-width: 768px) {
+  .commo__section {
+    padding: 70px 0;
+  }
+  .commo__section h1 {
+    font-size: 1.4rem;
+  }
+}

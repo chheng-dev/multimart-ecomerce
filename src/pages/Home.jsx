@@ -48,7 +48,7 @@ const Home = () => {
       <section className="hero__section">
         <Container>
           <Row>
-            <Col lg='6' md='6'>
+            <Col lg='6' md='6' className="m-auto">
               <div className="hero__content">
                 <p className="hero__subtitle">Trending product in {year}</p>
                 <h3>Make Your Interior More Minimalistic & Modern</h3>
